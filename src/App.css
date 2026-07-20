@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors */
+  --color-brand-primary: #6D1F32;
+  --color-brand-accent: #D4A373;
+  
+  /* Semantic Colors (Light Mode default) */
+  --color-main-bg: #F7F5F3;
+  --color-main-card: #FFFFFF;
+  --color-main-text: #1A1A1A;
+  --color-main-border: rgba(0, 0, 0, 0.05);
+
+  --font-sans: "Space Grotesk", "Manrope", sans-serif;
+  --shadow-premium: 0 20px 50px rgba(0, 0, 0, 0.04);
+}
+
+/* Dark Mode Overrides */
+.dark {
+  --color-main-bg: #0E0E0E;
+  --color-main-card: #171717;
+  --color-main-text: #FFFFFF;
+  --color-main-border: rgba(255, 255, 255, 0.05);
+  --shadow-premium: 0 20px 50px rgba(0, 0, 0, 0.6);
+}
+
+@layer base {
+  body {
+    @apply transition-colors duration-500 font-sans antialiased;
+    background-color: var(--color-main-bg);
+    color: var(--color-main-text);
+  }
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-main-border);
+}
+
+.dark .glass {
+  background: rgba(14, 14, 14, 0.7);
+}
+
+.my-masonry-grid {
+  display: flex;
+  margin-left: -24px;
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 24px;
+  background-clip: padding-box;
+}

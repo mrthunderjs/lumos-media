@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Moody Cinematic Beach",
+    "image": "/prompts/img1.png", 
+    "category": "Beach",
+    "tags": ["Nature"],
+    "prompt": "Convert this image into a moody cinematic beach scene with a cold teal-and-cyan grade..."
+  },
+  {
+    "id": 2,
+    "title": "Deep Emerald Forest",
+    "image": "/prompts/img2.png",
+    "category": "Nature",
+    "tags": ["Forest"],
+    "prompt": "Transform this image into an ultra-realistic cinematic forest scene with dense white fog..."
+  },
+  {
+    "id": 3,
+    "title": "Misty Woodland Path",
+    "image": "/prompts/img3.png",
+    "category": "Nature",
+    "tags": ["Forest"],
+    "prompt": "Transform this image into an ultra-realistic cinematic forest scene with dense white fog..."
+  },
+  {
+    "id": 4,
+    "title": "Rainy Forest Aesthetic",
+    "image": "/prompts/img4.png",
+    "category": "Nature",
+    "tags": ["Forest", "Rain"],
+    "prompt": "Dark teal green tones, desaturated colours, misty atmosphere, moody forest aesthetic, rainy season vibe..."
+  },
+  {
+    "id": 5,
+    "title": "Golden Hour Shoreline",
+    "image": "/prompts/img5.png",
+    "category": "Beach",
+    "tags": ["Nature"],
+    "prompt": "Transform this beach photo into an ultra-realistic cinematic sunset scene..."
+  }
+]
